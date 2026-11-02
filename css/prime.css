@@ -652,3 +652,9 @@ input, textarea, input::placeholder, textarea::placeholder { text-transform: non
 @media (max-width: 991px) {
   .hero_img { width: 100%; max-width: 460px; }
 }
+/* навчальний характер сайту */
+.edu_notice_wrap { background: #0f0f0f; padding: 0 0 30px; }
+.edu_notice { border: 2px dashed #ff5a00; border-radius: 14px; background: #1a1a1a; padding: 22px 28px; text-align: center; }
+.edu_notice h4 { font-size: 20px; font-weight: 700; text-transform: uppercase; color: #ff5a00; margin: 0 0 10px; letter-spacing: .5px; }
+.edu_notice p { font-size: 15px; line-height: 1.6; color: #d6d6d6; margin: 0; }
+@media (max-width: 575px) { .edu_notice { padding: 16px; } .edu_notice h4 { font-size: 16px; } }

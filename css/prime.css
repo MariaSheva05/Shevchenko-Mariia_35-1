@@ -658,3 +658,6 @@ input, textarea, input::placeholder, textarea::placeholder { text-transform: non
 .edu_notice h4 { font-size: 20px; font-weight: 700; text-transform: uppercase; color: #ff5a00; margin: 0 0 10px; letter-spacing: .5px; }
 .edu_notice p { font-size: 15px; line-height: 1.6; color: #d6d6d6; margin: 0; }
 @media (max-width: 575px) { .edu_notice { padding: 16px; } .edu_notice h4 { font-size: 16px; } }
+
+.edu_notice p i { font-style: italic; color: #ffffff; }
+.edu_notice p.edu_more { margin-top: 8px; font-size: 13px; color: #9a9a9a; }
